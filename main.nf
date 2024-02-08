@@ -2,7 +2,7 @@ include { validateParameters; paramsHelp; paramsSummaryLog; fromSamplesheet } fr
 
 // Print help message, supply typical command line usage for the pipeline
 if (params.help) {
-   log.info paramsHelp("nextflow run my_pipeline --input input_file.csv")
+   log.info paramsHelp("nextflow run main.nf --input input_file.csv")
    exit 0
 }
 

@@ -1,0 +1,12 @@
+- sample: fastq_paired1_L001
+  organism: Homo sapiens
+  fastq_1: https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R1.fastq.gz
+  fastq_2: https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R2.fastq.gz
+- sample: fastq_paired1_L002
+  organism: Homo sapiens
+  fastq_1: https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R1.fastq.gz
+  fastq_2: https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R2.fastq.gz
+- sample: sarscov2_paired
+  organism: SarsCov2
+  fastq_1: https://github.com/nf-core/test-datasets/raw/modules/data/genomics/sarscov2/illumina/fastq/test_1.fastq.gz
+  fastq_2: https://github.com/nf-core/test-datasets/raw/modules/data/genomics/sarscov2/illumina/fastq/test_2.fastq.gz

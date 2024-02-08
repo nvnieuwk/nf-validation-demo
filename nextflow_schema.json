@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://raw.githubusercontent.com/nvnieuwk/nf-validation-demo/master/nextflow_schema.json",
+    "title": "Parameter schema",
+    "type": "object",
+    "properties": {
+        "input": {
+            "type": "string",
+            "format": "file-path",
+            "schema": "assets/schema_input.json",
+            "pattern": "^\\S+\\.(csv|tsv|yaml|yml)$",
+            "exists": true
+        },
+        "outdir": {
+            "type": "string",
+            "format": "directory-path"
+        },
+        "integer": {
+            "type": "integer",
+            "enum": [0,1,2,3,4,5],
+            "default": 0
+        }
+    },
+    "required": ["input", "outdir"]
+}

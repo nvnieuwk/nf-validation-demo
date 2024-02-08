@@ -1,0 +1,4 @@
+sample	organism	fastq_1	fastq_2
+fastq_paired1_L001	Homo sapiens	https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R1.fastq.gz	https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R2.fastq.gz
+fastq_paired1_L002	Homo sapiens	https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R1.fastq.gz	https://github.com/CenterForMedicalGeneticsGhent/nf-cmgg-test-datasets/raw/main/data/genomics/homo_sapiens/illumina/fastq/test_R2.fastq.gz
+sarscov2_paired	SarsCov2	https://github.com/nf-core/test-datasets/raw/modules/data/genomics/sarscov2/illumina/fastq/test_1.fastq.gz	https://github.com/nf-core/test-datasets/raw/modules/data/genomics/sarscov2/illumina/fastq/test_2.fastq.gz
